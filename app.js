@@ -13,7 +13,7 @@ const port = 3000;
 app.use(morgan('combined'));
 
 app.get("/", (req,res) =>{
-    res.send('Hello borntoDev Co., Ltd.');
+    res.send('Hello borntoDev Co., Lt.');
 })
 
 app.listen(port, ()=>{
